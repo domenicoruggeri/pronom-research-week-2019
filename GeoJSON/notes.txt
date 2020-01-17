@@ -1,0 +1,30 @@
+GeoJSON
+
+Version Number:
+6.0
+
+Extensions:
+geojson, json
+
+MIME-Type:
+application/json
+
+Description:
+GeoJSON is a data-interchange format for a variety of geographic data structures. GeoJSON can be used to represent a geometry, a feature, a collection of geometries, or a collection of features. The geometry types supported in GeoJSON are Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon and GeometryCollection. Features in GeoJSON are geometry objects with additional properties. A geometry collection represents a list of geometries and a feature collection represents a list of features.
+
+A complete GeoJSON data structure is always an object (in JSON terms). In GeoJSON, an object consists of a collection of name/value pairs - also called members. For each member, the name is always a string. Member values are either a string, number, object, array or one of the literals: true, false, and null. An array consists of elements where each element is a value as described above.
+
+Full specification of the format can be found at https://tools.ietf.org/html/rfc7946
+
+Format Type:
+Geographically located data in object notation
+
+Vendor:
+Internet Engineering Task Force (IETF)
+
+Example File Sources:
+http://wiki.geojson.org/GeoJSON_draft_version_6 at the "Examples" section.
+
+File Format identification signatures:
+See signature-file.xml with dummy PUID PRS-fmt/1
+The signatures checks that the geojson file starts with the character "{" and ends with character "}", that could be followed by a newline (taking into account both Windows and Linux's newline character). A geojson file also has to contain the sequence "{ "type" : " followed by one of seven geometry types: "Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon and GeometryCollection".

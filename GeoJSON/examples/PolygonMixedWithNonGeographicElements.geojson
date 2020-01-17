@@ -1,0 +1,24 @@
+{
+  "blog" : {
+   "posts" : [
+     {
+       "type" : "atom:item",
+       "atom:summary": "post 1",
+       "atom:description" : "i love blogging"},
+     {
+       "type" : "atom:item",
+       "atom:summary": "post 2 from CA",
+       "atom:description" : "geoblogging in California"
+       "location" : {
+         "type", "Point",
+         "coordinates": [-120, 40]
+       }
+     },
+   ],
+   "location" : {
+       "type", "Polygon",
+       "coordinates": [[[-121, 39], [-119, 39], [-119, 41], [-121, 41], [-121, 39]]]
+     }
+   }
+  }
+ }
