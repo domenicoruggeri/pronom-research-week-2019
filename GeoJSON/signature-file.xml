@@ -1109,5 +1109,6 @@
 	<InternalSignatureID>20</InternalSignatureID>
 	<InternalSignatureID>21</InternalSignatureID>
     <Extension>geojson</Extension>
+    <Extension>json</Extension>
   </FileFormat>
 </FileFormatCollection></FFSignatureFile>
