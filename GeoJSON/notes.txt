@@ -17,7 +17,7 @@ A complete GeoJSON data structure is always an object (in JSON terms). In GeoJSO
 Full specification of the format can be found at https://tools.ietf.org/html/rfc7946
 
 Format Type:
-Geographically located data in object notation
+Text
 
 Vendor:
 Internet Engineering Task Force (IETF)
